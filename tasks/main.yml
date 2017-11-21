@@ -9,4 +9,4 @@
 - include: RedHat.yml
   when: ansible_os_family == 'RedHat'
 
-- include: install_package_name.yml
+- include: install_package_names.yml
