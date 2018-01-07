@@ -13,6 +13,18 @@ Example Playbook
       roles:
          - wtanaka.screen
 
+### `screen_should_shortcircuit`
+
+Default: True
+
+when True, the role short-circuits itself if screen is already installed
+
+### All variables
+
+The full set of configuration options available are visible in
+[defaults/main.yml](defaults/main.yml)
+
+
 License
 -------
 
@@ -21,4 +33,4 @@ GPLv2
 Author Information
 ------------------
 
-http://wtanaka.com/
+https://wtanaka.com/
